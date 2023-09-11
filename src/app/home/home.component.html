@@ -1,0 +1,74 @@
+<div class="container">
+  <div class="row">
+    
+    <div class="col-lg-3 ml-lg-auto">
+      <!-- Danh mục sản phẩm -->
+      <div class="category-frame">
+        <h2>Category</h2>
+        <ul>
+          <li *ngFor="let cat of listCategories">
+            <a routerLink="search/{{ cat.name }}">{{ cat.name }}</a>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="category-frame">
+        <h2>Operation Time</h2>
+        <ul>
+          <li><a href="#">Thứ 2 : 7h - 21h</a></li>
+          <li><a href="#">Thứ 3 : 7h - 21h</a></li>
+          <li><a href="#">Thứ 4 : 7h - 21h</a></li>
+          <li><a href="#">Thứ 5 : 7h - 21h</a></li>
+          <li><a href="#">Thứ 6 : 7h - 21h</a></li>
+          <li><a href="#">Thứ 7 : 7h - 21h</a></li>
+          <li><a href="#">Chủ nhật : Off</a></li>
+        </ul>
+      </div>
+      <div class="category-frame">
+        <h2>Call Center</h2>
+        <ul>
+          <li><a href="#">📳 Phía Bắc & Trung<br>Mua hàng : (024) 3568 6969<br>Bảo hành : (028) 38 333 222</a></li>
+          <li><a href="#">📳 Phía Nam<br>Mua hàng : (028) 3833 6666<br>Bảo hành : (028) 38 333 222</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-lg-9 ml-lg-auto">
+      <ngb-carousel *ngIf="popularProducts">
+        <ng-template ngbSlide *ngFor="let item of popularProducts">
+          <div class="picsum-img-wrapper">
+            <a routerLink="/details/{{item.id}}">
+              <img class="product-header-image" src="{{item.image}}" alt="Random first slide">
+            </a>
+          </div>
+          <div class="carousel-caption">
+            <h3>{{item.name}}</h3>
+            <p>{{item.description}}</p>
+          </div>
+        </ng-template>
+      </ngb-carousel>
+      <div class="product-list-wrapper">
+        <h1>Trendy Products</h1>
+        <div class="row">
+          <div class="col-sm-3" *ngFor="let item of trendyProducts">
+            <div class="product-item">
+              <img src="{{item.image}}" alt="">
+              <div class="product-details">
+                <h6 class="name-head">{{item.name}}</h6>
+                <div class="product-price">
+                  <h6>Price: {{item.price}}</h6>
+                </div>
+                <div class="product-color">
+                  <h6>Color: {{item.color}}</h6>
+                </div>
+              </div>
+              <div class="product-footer">
+                <a routerLink="/details/{{item.id}}">View Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

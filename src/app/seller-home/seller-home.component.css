@@ -1,0 +1,38 @@
+table{
+    text-align: left;
+    color: black;
+    border-collapse: collapse;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+table td , table th{
+    border: 1px solid rgb(18, 209, 41);
+    padding: 10px;
+    min-width: 160pxs;
+}
+.adjust-update-link{
+    margin-left: 10px;
+}
+/* Thiết lập các kiểu mặc định cho nút và liên kết */
+.custom-button {
+    background-color: rgb(18, 209, 41);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .custom-button a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Đổi màu nền khi di chuột vào */
+  .custom-button:hover {
+    background-color: #0056b3;
+  }
+  

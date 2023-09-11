@@ -1,0 +1,677 @@
+{
+  "seller": [
+    {
+      "name": "sam sidhu",
+      "email": "sam@seller.com",
+      "password": "abc@123",
+      "id": 5
+    },
+    {
+      "name": "peter",
+      "password": "abc@123",
+      "email": "peter@test.com",
+      "id": 6
+    },
+    {
+      "name": "Như Ý",
+      "email": "NhuY@seller.com",
+      "password": "abc@123",
+      "id": 1
+    },
+    {
+      "name": "MinhToan",
+      "email": "MinhToan@seller.com",
+      "password": "abc@123",
+      "id": 2
+    },
+    {
+      "name": "MinhHien",
+      "email": "MinhHien@seller.com",
+      "password": "abc@123",
+      "id": 3
+    },
+    {
+      "name": "Lemon",
+      "password": "123456",
+      "email": "abc@gmail.com",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "name": "IPhone 13 128GB",
+      "price": "6000",
+      "category": "Điện thoại",
+      "color": "White",
+      "description": "Máy mới 100% , chính hãng Apple Việt Nam.",
+      "image": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/t/r/tr_ng_5.jpg",
+      "id": 2
+    },
+    {
+      "name": "IPhone 13 128GB",
+      "price": "6000",
+      "category": "Điện thoại",
+      "color": "Blue",
+      "description": "Máy mới 100% , chính hãng Apple Việt Nam.",
+      "image": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/d/_/d_ng_3.jpg",
+      "id": 3
+    },
+    {
+      "name": "IPhone 13 128GB",
+      "price": "6000",
+      "category": "Điện thoại",
+      "color": "Red",
+      "description": "Máy mới 100% , chính hãng Apple Việt Nam.",
+      "image": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/f/i/file_3_10.jpg",
+      "id": 4
+    },
+    {
+      "name": "Samsung Galaxy Z Flip 4 5G 128GB",
+      "price": "8000",
+      "category": "Điện thoại",
+      "color": "Blue",
+      "description": "Galaxy Z Flip4 là chiếc smartphone sinh ra dành cho các tín đồ thời trang",
+      "image": "https://tabletplaza.vn/images/variant_image/22/q_50pr-ge.jpg",
+      "id": 5
+    },
+    {
+      "name": "Samsung Galaxy S23 Ultra 5G 512GB",
+      "price": "8000",
+      "category": "Điện thoại",
+      "color": "White",
+      "description": "Thiết kế của S23 Ultra còn rất chú trọng đến việc thân thiện với môi trường khi sử dụng 12 linh kiện bảo vệ môi trường",
+      "image": "https://tabletplaza.vn/images/thumbnails/450/320/detailed/24/bedbf827-c6eb-4298-b13b-bf50445bc5e8_3mbh-al.jpg",
+      "id": 6
+    },
+    {
+      "name": "BỘ HP 280 PRO G9 - AL09",
+      "price": "100000",
+      "category": "Máy tính",
+      "color": "White",
+      "description": "Sở hữu 6 nhân 12 luồng theo kiến trúc Alder Lake mới, hỗ trợ socket LGA 1700 mang lại hiệu năng sử dụng vô cùng vượt trội",
+      "image": "https://vitinhmiennam.com/upload/sanpham/large/bo-hp-280-pro-g9-al09-1173-1.jpg",
+      "id": 7
+    },
+    {
+      "name": "BỘ HP PAVILION TP01 - AL08",
+      "price": "110000",
+      "category": "Máy tính",
+      "color": "Black",
+      "description": "Sở hữu 4 nhân 8 luồng, bộ nhớ đệm 12MB với tốc độ Turbo tối đa là 4.30GHz",
+      "image": "https://vitinhmiennam.com/upload/sanpham/large/bo-hp-pavilion-tp01-al08-1172-1.jpg",
+      "id": 8
+    },
+    {
+      "name": "BỘ DELL OPTIPLEX 3000MT - AL06",
+      "price": "120000",
+      "category": "Máy tính",
+      "color": "Black",
+      "description": "Sở hữu 6 nhân 12 luồng theo kiến trúc Alder Lake mới, hỗ trợ socket LGA 1700 mang lại hiệu năng sử dụng vô cùng vượt trội",
+      "image": "https://vitinhmiennam.com/upload/sanpham/large/bo-dell-optiplex-3000mt-al06-1170-1.jpg",
+      "id": 9
+    },
+    {
+      "name": "BỘ DELL OPTIPLEX 3000 SFF - AL05",
+      "price": "125000",
+      "category": "Máy tính",
+      "color": "Black",
+      "description": "Sở hữu 6 nhân 12 luồng theo kiến trúc Alder Lake mới, hỗ trợ socket LGA 1700 mang lại hiệu năng sử dụng vô cùng vượt trội",
+      "image": "https://vitinhmiennam.com/upload/sanpham/bo-dell-optiplex-3090-sff-al05-1168-1.jpg",
+      "id": 10
+    },
+    {
+      "name": "Neo QLED 4K 75 inch Samsung ",
+      "price": "1125000",
+      "category": "Tivi",
+      "color": "Blue",
+      "description": "Màu sắc rực rỡ và có độ sâu màu lớn, tương phản rất tốt. - Tần số quét lớn nên xem rất mượt mà - Tốc độ xử lý nhanh khi kết nối với mạng có dây và không dây",
+      "image": "https://cdn.tgdd.vn/Products/Images/1942/235631/Slider/neo-qled-4k-samsung-qa75qn85a-160521-1254443.jpg",
+      "id": 11
+    },
+    {
+      "name": "The Terrace QLED Samsung 4K 75 inch",
+      "price": "1125000",
+      "category": "Tivi",
+      "color": "Black",
+      "description": "Màu sắc rực rỡ và có độ sâu màu lớn, tương phản rất tốt. - Tần số quét lớn nên xem rất mượt mà - Tốc độ xử lý nhanh khi kết nối với mạng có dây và không dây",
+      "image": "https://cdn.tgdd.vn/Products/Images/1942/227909/Slider/1-1020x571-1.jpg",
+      "id": 12
+    },
+    {
+      "name": "TCL 4K 43 inch",
+      "price": "725000",
+      "category": "Tivi",
+      "color": "Black",
+      "description": "Thiết kế mỏng đẹp, hình ảnh 4K hiển thị sắc nét, công nghệ HDR10 cho khung hình giàu sắc thái",
+      "image": "https://cdn.tgdd.vn/Products/Images/1942/281934/Slider/vi-vn-google-tcl-4k-43-inch-43p635-1.jpg",
+      "id": 13
+    },
+    {
+      "name": "Samsung 4K 55 inch",
+      "price": "1025000",
+      "category": "Tivi",
+      "color": "Black",
+      "description": "Màn hình 55 inch độ phân giải 4K với hơn 8 triệu điểm ảnh, khung hình sống động nhờ bộ vi xử lý Crystal 4K",
+      "image": "https://cdn.tgdd.vn/Products/Images/1942/303231/Slider/vi-vn-smart-tivi-samsung-4k-55-inch-ua55cu8000-1.jpg",
+      "id": 14
+    },
+    {
+      "name": "Lenovo Ideapad 5 Pro",
+      "price": "1910000",
+      "category": "Laptop",
+      "color": "Gray",
+      "description": "Chip R5-6600HS cùng card rời GTX 1650 xử lý tốt các phần mềm đồ hoạ, các tựa game AAA ở mức setting trung bình",
+      "image": "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_190.png",
+      "id": 15
+    },
+    {
+      "name": "ASUS TUF DASH Gaming F15",
+      "price": "1939000",
+      "category": "Laptop",
+      "color": "Black",
+      "description": "Chip I5-12450H cùng card rời GeForce RTX 3050 chiến mọi tựa game ở mức đồ hoạ trung bình trở lên",
+      "image": "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0004_41155_laptop_asus_tuf_dash_f15_f.jpg",
+      "id": 16
+    },
+    {
+      "name": "MacBook Pro 13 Touch Bar M1 256GB",
+      "price": "2939000",
+      "category": "Laptop",
+      "color": "Silver",
+      "description": "Xử lý đồ hoạ mượt mà - Chip M1 cho phép thao tác trên các phần mềm AI, Photoshop, Render Video, phát trực tiếp ở độ phân giải 4K",
+      "image": "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/b/mbp-spacegray-select-202011.jpg",
+      "id": 17
+    },
+    {
+      "name": "MSI GF63 Thin 11SC 664VN",
+      "price": "939000",
+      "category": "Laptop",
+      "color": "Black",
+      "description": "sản phẩm thuộc phân khúc giá tầm trung, phù hợp với những game thủ. Đây là dòng laptop có vẻ ngoài nhỏ gọn nhưng vẫn mang đậm phong cách gaming",
+      "image": "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/m/s/msi-gf63-thin-10sc-804vn-1_3.jpg",
+      "id": 18
+    },
+    {
+      "name": "Apple Watch SE",
+      "price": "539000",
+      "category": "Đồng hồ",
+      "color": "Black",
+      "description": "Apple Watch SE 2 (2022) 40mm (GPS) Viền nhôm",
+      "image": "https://cdn-v2.didongviet.vn/files/media/catalog/product/g/r/group_12_1__1.jpg",
+      "id": 19
+    },
+    {
+      "name": "Apple Watch SE Nhôm 2022 GPS",
+      "price": "539000",
+      "category": "Đồng hồ",
+      "color": "White",
+      "description": "Apple Watch SE 2 (2022) 40mm (GPS) Viền nhôm",
+      "image": "https://shopdunk.com/images/thumbs/0011833_starlight.webp",
+      "id": 20
+    },
+    {
+      "name": "Apple Watch Series 6",
+      "price": "639000",
+      "category": "Đồng hồ",
+      "color": "Blue",
+      "description": "Thiết kế thời trang, nhiều tiện ích thông minh như điều khiển chơi nhạc, điều khiển chụp ảnh",
+      "image": "https://www.duchuymobile.com/images/variant_image/59/apple-watch-series-6-44mm-gps-xanh.jpg",
+      "id": 21
+    },
+    {
+      "name": "Apple Watch Series 8",
+      "price": "639000",
+      "category": "Đồng hồ",
+      "color": "Red",
+      "description": "Thiết kế thời trang, nhiều tiện ích thông minh như điều khiển chơi nhạc, điều khiển chụp ảnh",
+      "image": "https://24hstore.vn/images/products/2022/09/13/original/41-gps-do.jpg",
+      "id": 22
+    },
+    {
+      "name": "Sony Headphones",
+      "price": "1500",
+      "category": "Tai nghe",
+      "color": "Black",
+      "description": "High-quality headphones for music lovers",
+      "image": "https://m.media-amazon.com/images/I/61t0HecIZbL._AC_UF1000,1000_QL80_.jpg",
+      "id": 23
+    },
+    {
+      "name": "LG Smart TV",
+      "price": "40000",
+      "category": "Tivi",
+      "color": "Silver",
+      "description": "55-inch smart TV with 4K resolution",
+      "image": "https://www.lg.com/vn/images/plp-sticky/oled-cat-thumb.jpg",
+      "id": 24
+    },
+    {
+      "name": "Headset JBL Quantum ONE",
+      "price": "311500",
+      "category": "Tai nghe",
+      "color": "Black",
+      "description": "JBL Quantum ONE mang tới cho bạn âm thanh 360 độ chuyên nghiệp đỉnh cao",
+      "image": "https://www.sieuthivienthong.com/imgs/art/p_45237_JBL-Quantum-ONE.jpg",
+      "id": 25
+    },
+    {
+      "name": "On-Ear Bluetooth JBL Live 660NC",
+      "price": "421500",
+      "category": "Tai nghe",
+      "color": "Blue",
+      "description": "JBL Live 660NC sở hữu công nghệ âm thanh JBL Signature mang đến âm thanh đầy đặn",
+      "image": "https://www.sieuthivienthong.com/imgs/art/p_69665_JBL-Live-660NC.jpg",
+      "id": 26
+    },
+    {
+      "name": "SONY WH-1000XM5",
+      "price": "521500",
+      "category": "Tai nghe",
+      "color": "White",
+      "description": "Phong cách thiết kế theo hướng tinh giản và gọn gàng",
+      "image": "https://cello.vn/image/cache/catalog/Cello/SanPham/Tai%20Nghe/Sony/WH-1000XM5/WH1000XM5_White_5-500x500.jpg",
+      "id": 27
+    },
+    {
+      "name": "B&O BEOPLAY H95",
+      "price": "621500",
+      "category": "Tai nghe",
+      "color": "Red",
+      "description": "Phong cách thiết kế theo hướng tinh giản và gọn gàng",
+      "image": "https://cello.vn/image/cache/catalog/Cello/SanPham/Tai%20Nghe/BO/Beoplay-H95/Beoplay-H95-Lunar-Red-Hero-04-500x500.png",
+      "id": 28
+    },
+    {
+      "name": "Loa Bluetooth JBL Party Box 1000",
+      "price": "1621500",
+      "category": "Phụ kiện",
+      "color": "Orange",
+      "description": "Được sử dụng nhiều tại các buổi Party trong nhà, picnic, đi du lịch, dã ngoại hay nghe nhạc nghe nhạc ngoài sân vườn",
+      "image": "https://www.sieuthivienthong.com/imgs/art/p_45455_JBL-Party-Box-1000.jpg",
+      "id": 29
+    },
+    {
+      "name": "Loa Bluetooth Harman Kardon Go Play Mini",
+      "price": "921500",
+      "category": "Phụ kiện",
+      "color": "Black",
+      "description": "Được thiết kế cực đẹp như một chiếc túi xách sành điệu với quai làm bằng thép không gỉ.",
+      "image": "https://www.sieuthivienthong.com/imgs/art/p_69643_Harman-Kardon-Go-Play-Mini.jpg",
+      "id": 30
+    },
+    {
+      "name": "Logitech G304 LIGHTSPEED Wireless",
+      "price": "121500",
+      "category": "Phụ kiện",
+      "color": "Black",
+      "description": "Với tông màu đen mạnh mẽ, có kích cỡ 116,6mm x 62,15mm x 38,2mm và khối lượng 99g vừa tay",
+      "image": "https://cdn.ben.com.vn/Content/Images/Products/183813.jpg",
+      "id": 31
+    },
+    {
+      "name": "APPLE MAGIC MOUSE 3 ",
+      "price": "500000",
+      "category": "Phụ kiện",
+      "color": "White",
+      "description": "Kết nối không dây,Chuột di nhạy, cảm ứng mượt mà,Sử dụng pin sạc lightning",
+      "image": "https://product.hstatic.net/1000357512/product/48020298_hmpk-pknk-chuot-khong-day-magic-mouse-2-mla02zaa-00005999__1__e37007d501934740bb57ccc5e9322d13_grande.jpg",
+      "id": 32
+    },
+    {
+      "name": " Logitech G213 Prodigy RGB ",
+      "price": "521500",
+      "category": "Phụ kiện",
+      "color": "Black",
+      "description": "Được tùy chỉnh đặc biệt để mang lại phản ứng tiếp xúc ưu việt và cấu hình hiệu suất gần như bàn phím cơ học",
+      "image": "https://cdn.ben.com.vn/Content/Images/Products/1ban_phim_logitech_gaming_g213_prodigy_rgb_800x600.jpg",
+      "id": 33
+    },
+    {
+      "name": " Logitech G413 SE Mechanical Gaming ",
+      "price": "221500",
+      "category": "Phụ kiện",
+      "color": "Black",
+      "description": "Được thiết kế với sự bền bỉ và đáng tin cậy",
+      "image": "https://cdn.ben.com.vn/Content/Images/Products/f34d03a9-e0d7-4315-8507-865ea623f988.jpg",
+      "id": 34
+    },
+    {
+      "name": "Pin sạc dự phòng Polymer 5000mAh",
+      "price": "850000",
+      "category": "Phụ kiện",
+      "color": "Black",
+      "description": "Pin sạc dự phòng Polymer 5000mAh Không dây Magnetic Type C PD 20W Xmobile DS611 ",
+      "image": "https://cdn.tgdd.vn/Products/Images/57/309431/sac-du-phong-polymer-5000mah-khong-day-magnetic-type-c-pd-20w-xmobile-ds611-1.jpg",
+      "id": 35
+    },
+    {
+      "name": "Lemon",
+      "price": "100",
+      "category": "Tivi",
+      "color": "Black",
+      "description": "",
+      "image": "https://24hstore.vn/images/products/2023/04/13/original/iphone-14-cu-midnight.jpg",
+      "id": 36
+    }
+  ],
+  "users": [
+    {
+      "name": "anil",
+      "email": "anil@user.com",
+      "password": "abc123",
+      "id": 1
+    },
+    {
+      "name": "peter",
+      "email": "peter@user.com",
+      "password": "abc123",
+      "id": 2
+    },
+    {
+      "name": "hyden",
+      "email": "hyden@user.com",
+      "password": "abc123",
+      "id": 3
+    },
+    {
+      "name": "tony",
+      "email": "tony@user.com",
+      "password": "abc123",
+      "id": 4
+    },
+    {
+      "name": "Huỳnh Như Ý",
+      "email": "yhuynh1601@yahoo.com",
+      "password": "123456",
+      "id": 5
+    },
+    {
+      "name": "Huỳnh Như Ý",
+      "email": "huynh.nhu.y1601@gmail.com",
+      "password": "123456",
+      "id": 6
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 7
+    }
+  ],
+  "category": [
+    {
+      "name": "Điện thoại",
+      "id": 1
+    },
+    {
+      "name": "Máy tính",
+      "id": 2
+    },
+    {
+      "name": "Tivi",
+      "id": 3
+    },
+    {
+      "name": "Laptop",
+      "id": 4
+    },
+    {
+      "name": "Đồng hồ",
+      "id": 5
+    },
+    {
+      "name": "Tai nghe",
+      "id": 6
+    },
+    {
+      "name": "Phụ kiện",
+      "id": 7
+    }
+  ],
+  "cart": [],
+  "orders": [
+    {
+      "email": "yhuynh1601@yahoo.com",
+      "address": "109/47/5, đường 8, khu phố 1, Linh Xuân, Thủ Đức, TP Hồ Chí Minh",
+      "contact": "0937781373",
+      "status": "In Progress",
+      "totalPrice": 18100,
+      "userId": 5,
+      "id": 2,
+      "items": [
+        {
+          "name": "IPhone 13 128GB",
+          "price": "6000",
+          "quantity": 1,
+          "image": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/t/r/tr_ng_5.jpg"
+        },
+        {
+          "name": "IPhone 13 128GB",
+          "price": "6000",
+          "quantity": 1,
+          "image": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/t/r/tr_ng_5.jpg"
+        },
+        {
+          "name": "IPhone 13 128GB",
+          "price": "6000",
+          "quantity": 1,
+          "image": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/t/r/tr_ng_5.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
+    },
+    {
+      "id": 10
+    },
+    {
+      "id": 11
+    },
+    {
+      "id": 12
+    },
+    {
+      "id": 13
+    },
+    {
+      "id": 14
+    },
+    {
+      "id": 15
+    },
+    {
+      "id": 16
+    },
+    {
+      "id": 17
+    },
+    {
+      "id": 18
+    },
+    {
+      "id": 19
+    },
+    {
+      "id": 20
+    },
+    {
+      "id": 21
+    },
+    {
+      "id": 22
+    },
+    {
+      "email": "huynh.nhu.y1601@gmail.com",
+      "address": "109/47/5, đường 8, khu phố 1, Linh Xuân, Thủ Đức, TP Hồ Chí Minh",
+      "contact": "0937781373",
+      "status": "In Progress",
+      "totalPrice": 30100,
+      "userId": 5,
+      "id": 23,
+      "items": [
+        {
+          "name": "IPhone 13 128GB",
+          "price": "6000",
+          "quantity": 1,
+          "image": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/t/r/tr_ng_5.jpg"
+        },
+        {
+          "name": "IPhone 13 128GB",
+          "price": "6000",
+          "quantity": 1,
+          "image": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/t/r/tr_ng_5.jpg"
+        },
+        {
+          "name": "IPhone 13 128GB",
+          "price": "6000",
+          "quantity": 1,
+          "image": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/t/r/tr_ng_5.jpg"
+        },
+        {
+          "name": "IPhone 13 128GB",
+          "price": "6000",
+          "quantity": 1,
+          "image": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/t/r/tr_ng_5.jpg"
+        },
+        {
+          "name": "IPhone 13 128GB",
+          "price": "6000",
+          "quantity": 1,
+          "image": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/t/r/tr_ng_5.jpg"
+        }
+      ]
+    },
+    {
+      "id": 24
+    },
+    {
+      "id": 25
+    },
+    {
+      "id": 26
+    },
+    {
+      "id": 27
+    },
+    {
+      "id": 28
+    },
+    {
+      "id": 29
+    },
+    {
+      "id": 30
+    },
+    {
+      "id": 31
+    },
+    {
+      "id": 32
+    },
+    {
+      "email": "huynh.nhu.y1601@gmail.com",
+      "address": "109/32/2 Thủ Đức",
+      "contact": "0937781931",
+      "status": "In Progress",
+      "totalPrice": 312100,
+      "userId": 6,
+      "id": 33,
+      "items": [
+        {
+          "name": "IPhone 13 128GB",
+          "price": "6000",
+          "quantity": 1,
+          "image": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/t/r/tr_ng_5.jpg"
+        },
+        {
+          "name": "IPhone 13 128GB",
+          "price": "6000",
+          "quantity": 1,
+          "image": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/d/_/d_ng_3.jpg"
+        },
+        {
+          "name": "BỘ HP 280 PRO G9 - AL09",
+          "price": "100000",
+          "quantity": 3,
+          "image": "https://vitinhmiennam.com/upload/sanpham/large/bo-hp-280-pro-g9-al09-1173-1.jpg"
+        }
+      ]
+    },
+    {
+      "email": "yhuynh1601@yahoo.com",
+      "address": "109/47/5, đường 8, khu phố 1, Linh Xuân, Thủ Đức, TP Hồ Chí Minh",
+      "contact": "0937781373",
+      "status": "In Progress",
+      "totalPrice": 12100,
+      "userId": 1,
+      "id": 34,
+      "items": [
+        {
+          "name": "IPhone 13 128GB",
+          "price": "6000",
+          "quantity": 1,
+          "image": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/t/r/tr_ng_5.jpg"
+        },
+        {
+          "name": "IPhone 13 128GB",
+          "price": "6000",
+          "quantity": 1,
+          "image": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/t/r/tr_ng_5.jpg"
+        }
+      ]
+    },
+    {
+      "email": "yhuynh1601@yahoo.com",
+      "address": "109/47/5, đường 8, khu phố 1, Linh Xuân, Thủ Đức, TP Hồ Chí Minh",
+      "contact": "0937781373",
+      "status": "In Progress",
+      "totalPrice": 6100,
+      "userId": 1,
+      "id": 35,
+      "items": [
+        {
+          "name": "IPhone 13 128GB",
+          "price": "6000",
+          "quantity": 1,
+          "image": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/d/_/d_ng_3.jpg"
+        }
+      ]
+    },
+    {
+      "email": "huynh.nhu.y1601@gmail.com",
+      "address": "109/47/5, đường 8, khu phố 1, Linh Xuân, Thủ Đức, TP Hồ Chí Minh",
+      "contact": "0937781373",
+      "status": "In Progress",
+      "totalPrice": 725100,
+      "userId": 1,
+      "id": 36,
+      "items": [
+        {
+          "name": "TCL 4K 43 inch",
+          "price": "725000",
+          "quantity": 1,
+          "image": "https://cdn.tgdd.vn/Products/Images/1942/281934/Slider/vi-vn-google-tcl-4k-43-inch-43p635-1.jpg"
+        }
+      ]
+    }
+  ]
+}

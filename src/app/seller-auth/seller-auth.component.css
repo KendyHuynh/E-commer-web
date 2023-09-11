@@ -1,0 +1,35 @@
+.sign-up, .login{
+    text-align: center;
+}
+.sign-up h1, .login h1{
+    margin-top: 50px;
+    margin-bottom: 80px;
+    color: rgb(18, 209, 41);   
+}
+.auth-toggle-link{
+    color: rgb(18, 209, 41);
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: left;
+}
+/* Đổi màu viền của khung nhập email và password thành màu xanh */
+.seller-auth .form-input {
+    border: 1px solid rgb(18, 209, 41); /* Thay đổi màu viền thành màu xanh đậm */
+    padding: 8px; /* Tùy chỉnh khoảng cách giữa nội dung và viền */
+    border-radius: 4px; /* Bo tròn các góc của khung */
+    width: 100%; /* Tự động mở rộng chiều ngang của khung */
+    margin-bottom: 10px; /* Tùy chỉnh khoảng cách giữa các khung */
+}
+.seller-auth .form-button {
+    background-color: rgb(195, 195, 195); 
+    color: white; /* Thay đổi màu chữ thành trắng */
+    border: 1px solid rgb(195, 195, 195); 
+    padding: 5px 20px; /* Tùy chỉnh khoảng cách giữa nội dung và viền (theo chiều dọc và ngang) */
+    border-radius: 4px; /* Bo tròn các góc của nút */
+    cursor: pointer; /* Hiển thị biểu tượng tay trỏ khi di chuột qua nút */
+  }
+  
+  .seller-auth .form-button:hover {
+    background-color: rgb(73, 238, 189); /* Thay đổi màu nền khi di chuột qua nút */
+  }
+  

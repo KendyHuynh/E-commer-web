@@ -1,0 +1,36 @@
+.user-auth h1{
+    margin-top: 50px;
+    margin-bottom: 80px;
+    color: rgb(18, 209, 41);
+    text-align: center; 
+}
+
+.user-auth {
+    color: rgb(0, 0, 0);
+    margin-bottom: 100px;
+}
+.user-auth a{
+    color: rgb(198, 197, 199);
+    cursor: pointer;
+}
+.user-auth a:hover {
+    color: rgb(62, 248, 155); /* Thay đổi màu chữ thành màu xanh khi hover */
+    text-decoration: underline; /* Thêm gạch chân khi hover */
+  }
+.user-auth input.form-input {
+    border: 1px solid rgb(18, 209, 41);
+    border-radius: 4px;
+}
+.user-auth .form-button {
+    background-color: rgb(195, 195, 195); 
+    color: white; /* Thay đổi màu chữ thành trắng */
+    border: 1px solid rgb(195, 195, 195); 
+    padding: 5px 20px; /* Tùy chỉnh khoảng cách giữa nội dung và viền (theo chiều dọc và ngang) */
+    border-radius: 4px; /* Bo tròn các góc của nút */
+    cursor: pointer; /* Hiển thị biểu tượng tay trỏ khi di chuột qua nút */
+  }
+  
+  .user-auth .form-button:hover {
+    background-color: rgb(73, 238, 189); /* Thay đổi màu nền khi di chuột qua nút */
+  }
+

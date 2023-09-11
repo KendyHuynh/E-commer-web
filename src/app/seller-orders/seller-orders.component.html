@@ -1,0 +1,52 @@
+<div class="my-orders">
+    <h1>Orders List</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Orders</th>
+                <th>Order Id</th>
+                <th>Price</th>
+                <th>Status</th>
+                <th>Cancel Order</th>
+                <th>Product details</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let order of orderData">
+                <td><img class="order-img" src="https://www.clipartmax.com/png/middle/210-2106541_track-my-order-beach-volleyball.png" alt=""></td>
+                <td>#{{order.id}}</td>
+                <td>{{order.totalPrice}}</td>
+                <td>{{order.status}}</td>
+                <td>
+                    <button class="form-button" style="background-color: red;" (click)="cancelOrder(order.id)">Cancel Order</button>
+                    
+                    <button class="form-button" *ngIf="order.status === 'In Progress'" (click)="confirmOrder(order.id)">Confirm Order</button>
+                </td>
+                <td>
+                    <div class="order-items">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Image</th>
+                                    <th>Name</th>
+                                    <th>Price</th>
+                                    <th>Quantity</th>
+                                    <th>Subtotal</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr *ngFor="let item of order.items">
+                                    <td><img class="order-img" [src]="item.image" alt="{{ item.name }}"></td>
+                                    <td>{{ item.name }}</td>
+                                    <td>{{ item.price }}</td>
+                                    <td>{{ item.quantity }}</td>
+                                    <td>{{ item.price * item.quantity }}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

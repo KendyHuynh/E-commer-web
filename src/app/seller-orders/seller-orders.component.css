@@ -1,0 +1,73 @@
+.my-orders {
+    text-align: center;
+    padding: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+.order-img {
+    width: 50px;
+    height: 50px;
+}
+
+.form-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background-color: #0056b3;
+}
+
+.order-items {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.order-items .table th,
+.order-items .table td {
+    padding: 5px;
+}
+
+.show-details-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.show-details-button:hover {
+    background-color: #0056b3;
+}
+
+.order-details {
+    display: none;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.order-details .table th,
+.order-details .table td {
+    padding: 5px;
+}
